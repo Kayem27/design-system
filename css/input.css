@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        body {
+            background-color: #EAECEE;
+            font-family: 'Montserrat', sans-serif;
+            padding: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .business-revenue-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 16px;
+            border-radius: 16px;
+            border: 1px solid;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            width: fit-content;
+        }
+
+        .icon-container {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon-container img {
+            width: 24px; 
+            height: 24px;
+        }
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .revenue-amount {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .revenue-description {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        /* Déclinaison 1 */
+        .button-variant-1 {
+            background-color: #FFFFFF;
+            border-color: rgba(46, 64, 87, 0.4);
+            color: #2E4057;
+        }
+
+        .button-variant-1 .icon-container {
+            background-color: #DA4167;
+        }
+
+        .button-variant-1 .revenue-amount {
+            color: #DA4167;
+        }
+
+        .button-variant-1 .revenue-description {
+            color: #2E4057;
+        }
+
+        .button-variant-1:hover {
+            background-color: #083D77;
+            color: #FFFFFF;
+        }
+
+        .button-variant-1:hover .icon-container {
+            background-color: #FFFFFF;
+        }
+
+        .button-variant-1:hover .revenue-amount,
+        .button-variant-1:hover .revenue-description {
+            color: #FFFFFF;
+        }
+
+        .button-variant-1:hover .icon-container img {
+            filter: invert(100%);
+        }
+
+        /* Déclinaison 2 */
+        .button-variant-2 {
+            background-color: #F6D8AE;
+            border-color: #DA4167;
+            color: #2E4057;
+        }
+
+        .button-variant-2 .icon-container {
+            background-color: #083D77;
+        }
+
+        .button-variant-2 .revenue-amount {
+            color: #083D77;
+        }
+
+        .button-variant-2 .revenue-description {
+            color: #2E4057;
+        }
+
+        .button-variant-2:hover {
+            background-color: #DA4167;
+            color: #FFFFFF;
+        }
+
+        .button-variant-2:hover .icon-container {
+            background-color: #FFFFFF;
+        }
+
+        .button-variant-2:hover .revenue-amount,
+        .button-variant-2:hover .revenue-description {
+            color: #FFFFFF;
+        }
+
+        .button-variant-2:hover .icon-container img {
+            filter: invert(100%);
+        }
+
+        /* Déclinaison 3 */
+        .button-variant-3 {
+            background-color: #2E4057;
+            border-color: #083D77;
+            color: #FFFFFF;
+        }
+
+        .button-variant-3 .icon-container {
+            background-color: #F6D8AE;
+        }
+
+        .button-variant-3 .revenue-amount {
+            color: #F6D8AE;
+        }
+
+        .button-variant-3 .revenue-description {
+            color: #FFFFFF;
+        }
+
+        .button-variant-3:hover {
+            background-color: #DA4167;
+            color: #FFFFFF;
+        }
+
+        .button-variant-3:hover .icon-container {
+            background-color: #FFFFFF;
+        }
+
+        .button-variant-3:hover .revenue-amount,
+        .button-variant-3:hover .revenue-description {
+            color: #FFFFFF;
+        }
+
+        .button-variant-3:hover .icon-container img {
+            filter: invert(100%);
+        }
