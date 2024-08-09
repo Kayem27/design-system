@@ -1,0 +1,159 @@
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbarsContainer {
+    max-width: 100%;
+    height: 338px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.logo {
+    width: 68.63px;
+    height: 34.94px;
+}
+
+.nav-items {
+    width: 313px;
+    height: 66px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 13px;
+    display: flex
+}
+
+.nav-item {
+    width: 28px;
+    height: 35px;
+    padding: 4px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    display: flex
+}
+
+.nav-item-badge {
+    position: relative;
+    width: 28px;
+    height: 35px;
+    padding: 4px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    display: flex
+}
+
+.nav-icon {
+    width: 15px;
+    height: 16.25px;
+}
+
+.nav-user-section {
+    width: 175px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    display: flex
+}
+
+.user-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px
+}
+
+.user-options {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex
+}
+
+.user-notification-badge {
+    width: 10px;
+    position: absolute;
+    top: 8px;
+    right: -4px;
+    height: 16px;
+    padding-left: 5.50px;
+    padding-right: 5.50px;
+    padding-top: 0.50px;
+    padding-bottom: 0.50px;
+    background: #DA4167;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex
+}
+
+.user-notification-badge .text {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 10.80px;
+    word-wrap: break-word
+}
+
+.user-name {
+    color: #2E4057;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.navbar {
+    width: 1441px;
+    height: 82px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: rgba(46, 64, 87, 0.10);
+    border-radius: 16px;
+    border-bottom: 1px rgba(46, 64, 87, 0.10) solid;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1018px;
+    display: inline-flex
+}
+
+.navbar-pink {
+    border-bottom: 1px solid var(--opacity-bluewood-10, rgba(46, 64, 87, 0.10));
+    background: rgba(191, 57, 57, 0.24);
+}
+
+.navbar-light-blue {
+    border-bottom: 1px solid var(--opacity-bluewood-10, rgba(46, 64, 87, 0.10));
+    background: rgba(8, 61, 119, 0.34);
+}
+
+.navbarContainer {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 100px;
+}
