@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  display: block;
+  justify-content: center;
+  padding: 1.5em;
+  border-radius: 1em;
+  margin-right: 1em;
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+.section_one {
+  border: 1px solid rgba(46, 64, 87, 0.4);
+  color: rgba(46, 64, 87, 1);
+  box-shadow: 10px 5px 5px rgba(46, 64, 87, 0.4);
+}
+
+section p {
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+section p:hover {
+  border-radius: 1em;
+}
+
+.section_one p:hover {
+  color: #fff;
+  background-color: rgb(70, 96, 128);
+}
+
+/* style du slot 2 */
+
+.section_two {
+  color: #fff;
+  background-color: rgba(46, 64, 87, 1);
+}
+
+.section_two p:hover {
+  background-color: rgba(218, 65, 103, 1);
+}
+
+/* style du slot 3 */
+
+.section_three {
+  color: #fff;
+  background-color: rgba(218, 65, 103, 1);
+}
+
+.section_three p:hover {
+  background-color: rgba(12, 98, 191, 1);
+}
