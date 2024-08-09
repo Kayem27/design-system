@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    display: flex;
+    gap: 20px;
+}
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.custom-select select {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(46, 64, 87, 0.4);
+    border-radius: 16px;
+    appearance: none; /* Removes the default arrow */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.custom-select::after {
+    content: '';
+    position: absolute;
+    top: 45%;
+    right: 10%;
+
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    transform: translateY(-50%) rotate(45deg);
+    transition: border-color 0.3s ease;
+    pointer-events: none;
+}
+
+.custom-select-bleu select {
+    color: #FFFFFF;
+    background-color: #083D77;
+    border-color: #083D77;
+}
+
+.custom-select-bleu::after {
+    border-color: #FFFFFF;
+}
+
+.custom-select-rouge select {
+    color: #FFFFFF;
+    background-color: #DA4167;
+    border-color: #DA4167;
+}
+
+.custom-select-rouge::after {
+    border-color: #FFFFFF;
+}
+
+.custom-select-beige select {
+    color: #2E4057;
+    background-color: #F6D8AE;
+    border-color: #F6D8AE;
+}
+
+.custom-select-beige::after {
+    border-color: #2E4057;
+}
