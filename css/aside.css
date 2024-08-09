@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  font-family: "Montserrat", sans-serif;
+}
+
+aside {
+  display: block;
+  justify-content: center;
+  padding: 1.5em;
+  border-radius: 1em;
+  text-align: center;
+  margin-right: 1em;
+}
+
+aside svg {
+  margin-bottom: 1em;
+}
+
+aside:hover {
+  transform: scale(1.02);
+}
+
+.aside_one {
+  border: 1px solid rgba(46, 64, 87, 0.4);
+  color: rgba(46, 64, 87, 1);
+}
+
+.section_menu {
+  margin-bottom: 1.5em;
+}
+
+.section_menu .item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section_menu .item:hover {
+  transform: scale(1.02);
+}
+
+.aside_one .section_menu .item:hover,
+.aside_four .section_menu .item:hover {
+  color: rgb(70, 96, 128);
+}
+
+.section_menu .item i {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.section_menu .item p {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.section_bouton div button {
+  border: none;
+  padding: 0.5em 2em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.aside_one .section_bouton .button_one button,
+.aside_three .section_bouton .button_one button {
+  background-color: rgba(12, 98, 191, 1);
+  color: #fff;
+}
+
+.aside_one .section_bouton .button_two button,
+.aside_three .section_bouton .button_two button {
+  background-color: rgba(230, 236, 241, 1);
+  color: rgba(46, 64, 87, 1);
+}
+
+.aside_one .section_bouton .button_two button:hover {
+  background-color: rgb(238, 238, 245);
+  transform: scale(1.02);
+}
+
+.aside_one .section_bouton .button_one button:hover,
+.aside_three .section_bouton .button_one button:hover {
+  background-color: rgb(36, 111, 191);
+  transform: scale(1.02);
+}
+
+/* Style du aside two */
+
+.aside_two {
+  color: #fff;
+  background-color: rgba(46, 64, 87, 1);
+}
+
+.aside_two .section_bouton .button_one button,
+.aside_four .section_bouton .button_one button {
+  background-color: rgba(218, 65, 103, 1);
+  color: #fff;
+}
+
+.aside_two .section_bouton .button_one button:hover,
+.aside_two .section_bouton .button_two button:hover,
+.aside_three .section_bouton .button_one button:hover,
+.aside_three .section_bouton .button_two button:hover,
+.aside_four .section_bouton .button_one button:hover,
+.aside_four .section_bouton .button_two button:hover {
+  transform: scale(1.02);
+}
+
+.aside_two .section_bouton .button_one button:hover,
+.aside_four .section_bouton .button_one button:hover {
+  background-color: rgb(216, 86, 119);
+}
+
+.aside_two .section_bouton .button_two button:hover {
+  background-color: #ffffffd7;
+}
+
+.aside_two .section_menu .item:hover,
+.aside_three .section_menu .item:hover {
+  color: #ffffffd7;
+}
+
+/* Style du aside three */
+
+.aside_three {
+  color: #fff;
+  background-color: rgba(218, 65, 103, 1);
+}
+
+/* Style du aside four */
+
+.aside_four {
+  color: rgba(46, 64, 87, 1);
+  background-color: rgba(46, 64, 87, 0.1);
+  border: 1px solid rgba(46, 64, 87, 0.4);
+}
+
+.aside_four .section_bouton .button_two button {
+  background-color: rgba(46, 64, 87, 1);
+  color: #fff;
+}
+
+.aside_four .section_bouton .button_two button:hover {
+  background-color: rgb(54, 75, 101);
+}
