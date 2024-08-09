@@ -8,7 +8,7 @@ Le kit UI comprend plusieurs composants, chacun conçu pour être accessible, et
 
 ## Installation
 
-Vous pouvez installer le kit UI via npm pour l'intégrer directement dans votre projet :`npm install votre-kit-ui`.
+Vous pouvez installer le kit UI via npm pour l'intégrer directement dans votre projet :`npm install dvp-kit`.
 
 ## Contribuer
 
